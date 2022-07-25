@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -58,8 +58,9 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Entrar em contato</h2>
-                <form onSubmit={handleSubmit}>
+                <h2>Contato através do WhatsApp</h2>
+                <a href="https://wa.me/5511972921948" target="blank" className="button-contact">WhatsApp</a>
+                {/* <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" value={formDetails.firstName} placeholder="Nome" onChange={(e) => onFormUpdate('nome', e.target.value)} />
@@ -84,7 +85,7 @@ export const Contact = () => {
                       </Col>
                     }
                   </Row>
-                </form>
+                </form> */}
               </div>}
             </TrackVisibility>
           </Col>

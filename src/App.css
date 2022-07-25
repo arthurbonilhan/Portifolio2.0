@@ -198,6 +198,16 @@ span.navbar-text {
   background-color: transparent;
   transition: 0.3s ease-in-out;
 }
+.button-contact {
+  font-weight: 700;
+  color: #fff !important;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
 
 .navbar-text button span {
   z-index: 1;

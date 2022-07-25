@@ -62,7 +62,6 @@ export const Banner = () => {
                   <span className="tagline">Bem vindo ao meu Portfolio</span>
                   <h1>{`Oi! Eu sou o Arthur`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Mobile Developer"]'><span className="wrap">{text}</span></span></h1>
                   <p>Profissional com 5 anos de experiência como Desenvolvedor Front-end, com foco em programação em React e React Native há 3 anos</p>
-                  <button onClick={() => console.log('connect')}>Vamos nos conectar? <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
           </Col>
