@@ -1,0 +1,125 @@
+section.project-mockup {
+    /* margin-top: 80px; */
+    background: url(../../../assets/projects/backGroundSSG.jpg) top no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    height: 700px;
+    position: relative;
+}
+
+section.project-mockup .overlay {
+    background: url(../../../assets/projects/mask-banner.png) bottom no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 101%;
+    z-index: 1;
+}
+
+section.project-mockup .mockup {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 845px;
+    top: 20px;
+    right: calc(40% - (470px)/2);
+    z-index: 2;
+}
+
+section.project-mockup .mockup .overlay {
+    background: url(../../../assets/projects/mockup8_h.png) center no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+
+section.project-mockup .mockup .screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+section.project-mockup .mockup .screen .content-screen {
+    background-size: 100% 100%;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    left: 11%;
+    right: 8%;
+    height: 92%;
+}
+section.project-mockup .mockup .screen .content-screen .img {
+    background: #000 url(../../../assets/projects/mockupSSG.jpg) no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 387px;
+    border-radius: 10px;
+    background-size: 100% 100%;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section.project-descripton {
+    padding-top: 200px;
+    position: relative;
+    background: #000;
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+section.project-descripton .download {
+    padding: 20px 0px;
+    margin-bottom: 60px;
+    color: #ccc;
+}
+
+section.project-descripton .download img {
+    margin-right: 10px;
+    float: left;
+    border-radius: 25px;
+    width: 100px;
+}
+
+section.project-descripton .download h3 {
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+section.project-descripton {
+    padding-top: 200px;
+    position: relative;
+    background: #000;
+    color: #fff;
+    padding-bottom: 80px;
+}
