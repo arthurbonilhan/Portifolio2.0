@@ -55,6 +55,7 @@ section.project-mockupC .mockup .screen .content-screen {
     right: 8%;
     height: 92%;
 }
+
 section.project-mockupC .mockup .screen .content-screen .img {
     background: #000 url(../../../assets/projects/mockupConsultaMais.png) no-repeat;
     background-size: 100% auto;
@@ -122,4 +123,15 @@ section.project-descripton {
     background: #000;
     color: #fff;
     padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .project-mockupC {
+        display: none;
+    }
+
+    .newSletter-none {
+        display: none;
+    }
 }

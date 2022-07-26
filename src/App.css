@@ -787,10 +787,8 @@ li {
   .contact-center{
     text-align: center;
   }
+
   .project-mockup{
-    display: none;
-  }
-  .newSletter-none{
     display: none;
   }
   section.project-descripton{

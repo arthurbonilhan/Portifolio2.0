@@ -123,3 +123,13 @@ section.project-descripton {
     color: #fff;
     padding-bottom: 80px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .project-mockupSNCC {
+        display: none;
+    }
+    .newSletter-none{
+        display: none;
+      }
+}
