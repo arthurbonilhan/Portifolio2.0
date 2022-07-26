@@ -1,8 +1,7 @@
 import './bandTec.css';
 import logoBandTec from "../../../assets/projects/logoBandTec.png";
 import { NavBar } from "../../NavBar";
-
-
+import { Footer } from "../../Footer";
 
 export default function BandTec() {
   return (
@@ -35,6 +34,10 @@ export default function BandTec() {
           <p>Um projeto em equipe envolvendo Iot de um medidor de temperatura com arduino (LM35).</p>
           <p> Utilizando Web Forms, banco de dados SQLServer, ferramentas para organização e gerenciamento como trello e Git, e metodologias ágeis como scrum e sprint backlog.</p>
         </div>
+      </section>
+
+      <section>
+        <Footer />
       </section>
     </div>
 

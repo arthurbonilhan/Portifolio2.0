@@ -39,7 +39,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn ">
                         <p>MINHAS SKILLS E POWER UP’S</p>
-                        <Carousel responsive={responsive} infinite={true} arrows={false}  className=" skill-slider">
+                        <Carousel responsive={responsive} infinite={true} arrows={false} swipeable={true}  className=" skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <p>REACT e REACT NATIVE</p>

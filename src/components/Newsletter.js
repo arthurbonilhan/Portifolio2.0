@@ -23,7 +23,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
 
   return (
       <Col lg={12}>
-        <div className="newsletter-bx wow slideInUp">
+        <div className="newsletter-bx wow slideInUp newSletter-none">
           <Row>
             <Col lg={12} md={6} xl={5}>
               <p>Precisa de um Front-end?</p>

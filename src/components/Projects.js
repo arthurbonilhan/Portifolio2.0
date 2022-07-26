@@ -35,7 +35,7 @@ export const Projects = () => {
                       <Tab.Pane eventKey="first">
                         <Row>
                           <Col size={12} sm={6} md={4}>
-                            <Link to="/raia">
+                            <Link className="color-projects" to="/raia">
                               <div className="proj-imgbx">
                                 <img src={projetRD} />
                                 <div className="proj-txtx">
@@ -46,7 +46,7 @@ export const Projects = () => {
                             </Link>
                           </Col>
                           <Col size={12} sm={6} md={4}>
-                            <Link to="/climatiza">
+                            <Link className="color-projects" to="/climatiza">
                               <div className="proj-imgbx">
                                 <img src={projClimatiza} />
                                 <div className="proj-txtx">
@@ -57,7 +57,7 @@ export const Projects = () => {
                             </Link>
                           </Col>
                           <Col size={12} sm={6} md={4}>
-                            <Link to="/consulta-mais">
+                            <Link className="color-projects" to="/consulta-mais">
                               <div className="proj-imgbx">
                                 <img src={projConsultaMais} />
                                 <div className="proj-txtx">
@@ -68,7 +68,7 @@ export const Projects = () => {
                             </Link>
                           </Col>
                           <Col size={12} sm={6} md={4}>
-                            <Link to="/acob">
+                            <Link className="color-projects" to="/acob">
                               <div className="proj-imgbx">
                                 <img src={projAcob} />
                                 <div className="proj-txtx">
@@ -79,7 +79,7 @@ export const Projects = () => {
                             </Link>
                           </Col>
                           <Col size={12} sm={6} md={4}>
-                            <Link to="/amazonia-life">
+                            <Link className="color-projects" to="/amazonia-life">
                               <div className="proj-imgbx">
                                 <img src={projALife} />
                                 <div className="proj-txtx">
@@ -90,7 +90,7 @@ export const Projects = () => {
                             </Link>
                           </Col>
                           <Col size={12} sm={6} md={4}>
-                            <Link to="/sebracom">
+                            <Link className="color-projects" to="/sebracom">
                               <div className="proj-imgbx">
                                 <img src={projSebracom} />
                                 <div className="proj-txtx">
@@ -101,7 +101,7 @@ export const Projects = () => {
                             </Link>
                           </Col>
                           <Col size={12} sm={6} md={4}>
-                            <Link to="/sncc">
+                            <Link className="color-projects" to="/sncc">
                               <div className="proj-imgbx">
                                 <img src={projSncc} />
                                 <div className="proj-txtx">
@@ -112,7 +112,7 @@ export const Projects = () => {
                             </Link>
                           </Col>
                           <Col size={12} sm={6} md={4}>
-                            <Link to="/trigg">
+                            <Link className="color-projects" to="/trigg">
                               <div className="proj-imgbx">
                                 <img src={projTrigg} />
                                 <div className="proj-txtx">
@@ -123,7 +123,7 @@ export const Projects = () => {
                             </Link>
                           </Col>
                           <Col size={12} sm={6} md={4}>
-                            <Link to="/bandTec">
+                            <Link className="color-projects" to="/bandTec">
                               <div className="proj-imgbx">
                                 <img src={projBandtec} />
                                 <div className="proj-txtx">

@@ -1,7 +1,6 @@
 import './amazoniaLife.css';
 import { NavBar } from "../../NavBar";
-
-
+import { Footer } from "../../Footer";
 
 export default function AmazoniaLife() {
   return (
@@ -29,11 +28,14 @@ export default function AmazoniaLife() {
             Desenvolvedor Front-End - Junior
           </div>
           <p>Canal para ONG's encontrarem possiveis investidores.</p>
-          <h3>Oque foi feito:</h3>
-          <p>Participação na criação, manutenção e arquitetura do WebSite do AmaozinaLife, Utilizando HTML, SASS, JS, e PHP </p>
-          <p>Na parte de organização e gestão, foi utilizado Trello jutamente com a metodologia agil scrum, onde tinhamos um sistema de dailys diarios. E uma rodada quinzenal para Planning e Retro.</p>
-          <p>Para versionamento foi utilizado Figma e GitHub onde utilizamos RSCSS para manter um padrão de nomenclatura do codigo.</p>
+          <h3>O que foi feito:</h3>
+          <p>Participação na criação, manutenção e arquitetura do Website do AmaozinaLife, Utilizando HTML, SASS, JS, e PHP.</p>
+          <p>Na parte de organização e gestão, foi utilizado Trello juntamente com a metodologia ágil scrum, onde tínhamos um sistema de dailys e rodadas quinzenais para Planning e Retro</p>
+          <p>Para versionamento e prototipagem, Figma e Gitlab foram utilizados com RSCSS para manter um padrão de nomenclatura do código.</p>
         </div>
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
 

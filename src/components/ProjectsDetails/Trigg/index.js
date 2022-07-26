@@ -1,6 +1,7 @@
 import './trigg.css';
 import projetoTrigg from "../../../assets/projects/logoTrigg.webp";
 import { NavBar } from "../../NavBar";
+import { Footer } from "../../Footer";
 
 
 
@@ -36,6 +37,9 @@ export default function Trigg() {
           <p>Na parte de organização e gestão, foi utilizado Monday jutamente com a metodologia agil scrum</p>
           <p>Para versionamento foi utilizado Avocode e GitLab.</p>
         </div>
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
 

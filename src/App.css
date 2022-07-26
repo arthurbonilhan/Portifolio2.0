@@ -313,8 +313,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
-  background: linear-gradient(90deg, rgba(228, 255, 0, 1) 0%, rgba(34, 193, 195, 1) 100%);
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -418,11 +417,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto;
   position: relative;
 }
-ul{
+/* ul{
   transition: initial !important;
   overflow: initial !important;
   transform: initial !important;
-}
+} */
 li {
   width: 200px !important;
 }
@@ -451,6 +450,9 @@ li {
   padding: 80px 0;
   position: relative;
   background-color: black;
+}
+.color-projects{
+  color: #fff !important;
 }
 
 .project h2 {
@@ -595,8 +597,7 @@ li {
 
 /************ Projects Css ************/
 .contact {
-  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
-  background: linear-gradient(90deg, rgba(228, 255, 0, 1) 0%, rgba(34, 193, 195, 1) 100%);
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
 }
 
@@ -776,4 +777,24 @@ li {
   letter-spacing: 0.5px;
   margin-top: 20px;
   font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .newsletter-bx {
+    padding: 55px 10px;
+    text-align: center;
+  }
+  .contact-center{
+    text-align: center;
+  }
+  .project-mockup{
+    display: none;
+  }
+  .newSletter-none{
+    display: none;
+  }
+  section.project-descripton{
+    padding-top: 100px !important;
+  }
+
 }

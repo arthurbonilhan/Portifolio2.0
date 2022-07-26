@@ -1,8 +1,7 @@
 import './consultaMais.css';
 import logoConsultaMais from "../../../assets/projects/logoConsultaMais.png";
 import { NavBar } from "../../NavBar";
-
-
+import { Footer } from "../../Footer";
 
 export default function ConsultaMais() {
   return (
@@ -31,11 +30,14 @@ export default function ConsultaMais() {
             Desenvolvedor Front-End
           </div>
           <p>Consultamais é a ferramenta completa para análise de crédito. Online, segura e atualizada, pesquisa CPF e CNPJ no Brasil inteiro.</p>
-          <h3>Oque foi feito:</h3>
-          <p>Participação na criação, manutenção e arquitetura do WebSite do ConsultaMais, Utilizando HTML, SASS, JS, e PHP </p>
-          <p>Na parte de organização e gestão, foi utilizado Trello jutamente com a metodologia agil scrum, onde tinhamos um sistema de dailys diarios. E uma rodada quinzenal para Planning e Retro.</p>
-          <p>Para versionamento foi utilizado Figma e GitHub onde utilizamos OOCSS para manter um padrão de nomenclatura do codigo.</p>
+          <h3>O que foi feito:</h3>
+          <p>Participação na criação, manutenção e arquitetura do Website do ConsultaMais, Utilizando HTML, SASS, JS, e PHP </p>
+          <p>Na parte de organização e gestão, foi utilizado Trello juntamente com a metodologia ágil scrum, onde tínhamos um sistema de dailys e rodadas quinzenais para Planning e Retro</p>
+          <p>Para versionamento e prototipagem, Figma e Gitlab foram utilizados com BEM para manter um padrão de nomenclatura do código.</p>
         </div>
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
 
